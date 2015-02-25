@@ -32,7 +32,7 @@ def helper():
 
 
 def select_torrent():
-    torrent = input('>> ')
+    torrent = raw_input('>> ')
     return torrent
 
 
@@ -57,7 +57,7 @@ def aksearch():
     helper()
     tmp_url = 'http://kickass.to/usearch/'
 
-    query = input('Type query: ')
+    query = raw_input('Type query: ')
     url = tmp_url + query + '/'
 
     try:
